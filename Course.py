@@ -1,6 +1,7 @@
 class Course:
-    def __init__(self, name):
+    def __init__(self, name, gato):
         self.name = name
+        self.gato = gato
         self._post_init()
 
     def _post_init(self):
